@@ -11,30 +11,22 @@ class HomePage(BasePage):
         BasePage.__init__(self, driver)
 
     def click_price_dropdown(self):
-        time.sleep(3)
         self.click_elements(By.CLASS_NAME, 'selected-name', 0)
 
     def choose_price(self):
-        time.sleep(3)
         self.click_element(By.ID, 'ember1075')
 
     def click_region_dropdown(self):
-        time.sleep(3)
         self.click_elements(By.CLASS_NAME, 'selected-name', 1)
 
     def choose_region(self):
-        time.sleep(3)
         self.click_element(By.ID, 'ember1111')
 
     def click_category_dropdown(self):
-        time.sleep(3)
         self.click_elements(By.CLASS_NAME, 'selected-name', 2)
 
     def choose_category(self):
-        time.sleep(3)
         self.click_element(By.ID, 'ember1180')
 
     def click_find_me_gift_button(self):
-        time.sleep(3)
         self.click_element(By.CSS_SELECTOR, 'a[rel=nofollow]')
-        time.sleep(3)
